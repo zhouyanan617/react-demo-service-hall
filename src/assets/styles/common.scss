@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+  background-color: #F4F4F4;
+}
+
+html, body, div, table, tr, td, th, ul, ol, li, p, article, h1, h2, h3, dl, dd, dt {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  &:link, &:visited, &:hover, &:active {
+    color: #000000;
+  }
+}
+
+input{
+  outline: none;
+  border-radius: 0px;
+  border: 0 none;
+}

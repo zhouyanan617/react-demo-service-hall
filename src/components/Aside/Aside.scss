@@ -1,0 +1,61 @@
+@import '../../assets/styles/mixin.scss';
+
+.aside-wrap {
+  width: 54px;
+  height: auto;
+  position: fixed;
+  top: 150px;
+  right: 0px;
+  z-index: 10;
+  .aside-list {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #4b5964;
+    border-bottom: 1px solid #c0c0c0;
+    .icon {
+      width: 20px;
+      height: 20px;
+      margin: 0 auto;
+      padding-top: 10px;
+      @include bgImg;
+      &.jubao {
+        background-image: url('../../assets/images/jubao.png');
+      }
+      &.notes {
+        background-image: url('../../assets/images/notes.png');
+      }
+      &.customer {
+        background-image: url('../../assets/images/customer.png');
+      }
+      &.associate {
+        background-image: url('../../assets/images/associate.png');
+      }
+    }
+    .text {
+      color: #ffffff;
+      font-size: 12px;
+      text-align: center;
+      padding-bottom: 8px;
+    }
+    &:hover {
+      background-color: #ffffff;
+      .icon {
+        &.jubao {
+          background-image: url('../../assets/images/jubao2.png');
+        }
+        &.notes {
+          background-image: url('../../assets/images/notes2.png');
+        }
+        &.customer {
+          background-image: url('../../assets/images/customer2.png');
+        }&.associate {
+          background-image: url('../../assets/images/associate2.png');
+        }
+      }
+      .text {
+        color: #4b5964;
+      }
+    }
+  }
+}

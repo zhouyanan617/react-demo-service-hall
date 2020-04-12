@@ -1,0 +1,30 @@
+
+.footer-main {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #dacdcd;
+  margin-bottom: 40px;
+  .footer-link {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    a {
+      color: #0088cc;
+      &:hover {
+        color: #ff6600;
+      }
+    }
+    .split {
+      margin: 0px 6px;
+      color: #808080;
+    }
+  }
+  .footer-copyright {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+    a {
+      color: #808080;
+    }
+  }
+}

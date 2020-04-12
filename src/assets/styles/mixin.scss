@@ -1,0 +1,17 @@
+
+@mixin clearFloat {
+  &::after {
+    content: '';
+    clear: both;
+    display: block;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+}
+
+@mixin bgImg {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
